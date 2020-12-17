@@ -20,8 +20,11 @@ hello
 #
 # Client-side
 <client>
+
+# require HTTP too as otherwise CURLOPT_POST doesn't exist
 <features>
 mqtt
+http
 </features>
 <server>
 mqtt
